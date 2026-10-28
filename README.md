@@ -176,11 +176,11 @@ Copie o conteúdo de .env_example e preencha com suas credenciais.
 
 .env
 ```bash
-POSTGRES_HOST="bdong-nhui.j.aivencloud.com"
-POSTGRES_PORT=15697
-POSTGRES_USER=avnadmin
+POSTGRES_HOST="nome-host"
+POSTGRES_PORT=1234
+POSTGRES_USER=admin
 POSTGRES_PASSWORD=sua_senha
-POSTGRES_DBNAME=defaultdb
+POSTGRES_DBNAME=nome-banco
 ```
 
 O módulo postgres_queries.py (se configurado para isso) usará python-dotenv para carregar essas variáveis automaticamente.
